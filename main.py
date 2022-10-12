@@ -87,7 +87,6 @@ st.subheader("Relacion entre las variables:")
 st.write("Para la relación entre variables se realizo un heatmmap y un correlograma dentro de los que se observó es practicamente nula la correlación que existe entre las variables. (colores muy oscuros en el heatmap y puntos sin relación en el correlograma)")
 st.image(rela1)
 st.image(pair1)
-
 st.write("Para mostrar la relación entre dos distribucciones realizamos boxplots, todos respecto a la variable objeto.")
 st.image(box1,caption="Boxlpot de la variable ph" )
 st.image(box2,caption="Boxlpot de la variable hardness" )
@@ -165,3 +164,5 @@ st.write("Para este dataset podemos concluir a traves de la visualización de lo
 st.write("1. Una categorización de variables y conclusión acerca de la relación de estas con la variable objetivo")
 st.write("2. Visualización de proporciones de las variables, relacion entre las variables sin la variable objetivo, Boxplot entre las variables y la vraiable objetivo")
 st.write("3. Pruebas de hipotesis sobre la normalidad de las variables, diferencia de medias y median si se divide el dataset en 2, distribución normal multivariada del dataset sin la variable objetivo")
+
+st.image("./
